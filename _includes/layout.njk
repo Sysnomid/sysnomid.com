@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content={{data.bio}}></meta>
+    <meta name="og:title" content=" {{ page.title }}- {{data.name}}"></meta>
+    <meta property="og:image" content="/assets/img/astronaut.jpeg" />
+    <meta property="og:url" content={{ page.url }} />
+    <meta property="og:type" content="article" />
+    <link rel="canonical" href={{ data.url }}{{ page.url }}/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>{{ data.name }}</title>
+</head>
+<body>
+<div class="margin-main">
+    <span>
+            <h1>
+            <a href="/">
+                <div class="red"> {{ data.name }} </div>
+            </a>
+            </h1>
+            <div class="md marg">
+                <strong>
+                <a href="/about">About</a>
+                <a href={{data.github}}>Github</a>
+                <a href="https://follow.it/sysnomid?action=followPub">Subscribe</a>
+                </strong>
+            </div>
+        </div>
+    </span>
+</div>
+<div id="content">
+	{{content | safe}}
+</div>
+<hr />
+<div class="margin-main">
+&copy; Sysnomid
+<br />
+Blog content under <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a>
+</div>
+</body>
+</html>

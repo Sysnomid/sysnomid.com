@@ -1,0 +1,106 @@
+/* Global Styling - Theme, Font, Overflow, Padding, Word-Wrap, etc */
+    html, 
+    body {
+        color: #c5c5c5;
+        background-color: #1a1a1a;
+        font-family: 'Inter', sans-serif;
+        padding-left: 2%;
+        padding-right: 2%;
+        word-wrap: break-word;
+        overflow-x: hidden;
+    }
+
+/*Tag Styling - h1, img, a, etc*/
+    /* Heading Styling */
+    h1,h2,h3 { line-height: 1.2 }
+
+    /* Image Styling */
+    img { 
+        display: block;
+        width: 500px;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 3vh;
+        padding-top: 1vh;
+    }
+
+    /* List Styling - Ul, Li */
+    ul {
+        margin-left: 0;
+        padding-left: 0;
+        list-style-type: none;
+    }
+    li::before {
+        content: "#";
+        font-size: 2em;
+        padding-right: 0.5em;
+        color: tomato;
+    }
+
+    /* Link Styling */
+    a {
+        color:  #c2c2c2;
+        text-decoration: underline;
+        text-decoration-color: rgb(100, 100, 100);
+    }
+    a:hover {
+        background-color: #37373787;
+    }
+
+    /* Code Block Styling */
+    pre {
+        display:flex;
+        background-color: #3a3a3a;
+        border-radius: 2vh;
+        padding: 2em;
+        flex-wrap: wrap;
+        max-width: 100%;
+        white-space: pre-wrap;
+    }
+
+/* Utility Classes, Font sizing, color */
+    .md { font-size: 1.5em; }
+    .lg { font-size: 2.5em; }
+    .xm { font-size: 1.8em; }
+    .underline { text-decoration: underline; }
+    .u-gray { color:  #c2c2c2; text-decoration: underline; text-decoration-color: rgb(100, 100, 100); }
+    .u-red { text-decoration-color: red; }
+    .red { color: red; }
+    .blue { color: rgb(90, 113, 187); }
+    .pt-1vh {padding-top: 1vh;}
+
+/*Element Styling*/
+    .margin-main {
+        margin: 40px auto;
+        max-width: 650px;
+        line-height: 1.6;
+        padding: 0 10px;
+    }
+    
+    .post-item {
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    /*OLD Animation
+    /*.post-item {
+        background-color: #09478262;
+        padding: 20px;
+        margin-bottom: 50px;
+        border-radius: 22px;
+        box-shadow:  
+             -17px -17px 0px #797575;
+        transition: 0.3s;
+    }
+
+    .post-item:hover {
+        transform: translate(0, -10px);
+        background-color: #3d3d3d;
+        padding: 20px;
+        margin-bottom: 50px;
+        border-radius: 22px;
+        background: linear-gradient(145deg, #10101000, #4f4f4f);
+        box-shadow:  17px 17px 0px #da4a4a,
+             -17px -17px 0px #3a4f87;
+    }*/
+

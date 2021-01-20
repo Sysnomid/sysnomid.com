@@ -1,0 +1,36 @@
+---
+title: Sysnomid
+layout: layout
+tags:
+  - mainCollection
+pagination:
+  data: collections.posts
+  size: 6
+  alias: posts
+permalink: /
+
+---
+
+<div>
+{%- assign posts = collections.posts | reverse -%}
+{% for post in posts %}
+<ol>
+<ul>
+	<li class="post-item margin-main pt-1vh">
+    <strong><a class="xm blue" href="{{post.url}}"><b>{{post.data.title}}</b></a></strong>
+    <p>{{post.data.excerpt}}...</p>
+    <strong>-</strong> <em class="post-date">{{ post.date | readableDate}}</em>
+  </li>
+</ul>
+</ol>
+{% endfor %}
+
+
+
+{% if pagination.href.previous %}
+  <a href="{{pagination.href.previous}}">Previous Page</a>
+{% endif %}
+{% if pagination.href.next %}
+  <a href="{{pagination.href.next}}">Next Page</a>
+{% endif %}
+</div>

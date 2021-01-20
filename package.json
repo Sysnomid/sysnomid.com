@@ -1,0 +1,27 @@
+{
+  "name": "sysnomid.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-img": "^0.7.4",
+    "@11ty/eleventy-plugin-rss": "^1.0.9",
+    "eleventy-plugin-sharp": "0.0.3",
+    "luxon": "^1.25.0"
+  },
+  "scripts": {
+    "build": "ELEVENTY_ENV=production eleventy",
+    "dev": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sysnomid/sysnomid.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sysnomid/sysnomid.com/issues"
+  },
+  "homepage": "https://github.com/Sysnomid/sysnomid.com#readme"
+}
