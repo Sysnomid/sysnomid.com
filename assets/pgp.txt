@@ -1,8 +1,3 @@
----
-layout: posts
----
-
-```
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -55,5 +50,3 @@ ZzLU/6FT5dafRzeni64Y9JXLHUA7uUAnZHfe55R+NdL51I3hm6eX1CgIdrrneAeB
 ufNQ/VuV/FIfuAYbBUyCTvkMxIXBFHjhGEed1DS41mQ9JAsCL+yctsOX
 =+/lS
 -----END PGP PUBLIC KEY BLOCK----- 
-
-```
