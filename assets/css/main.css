@@ -2,8 +2,8 @@
     html, 
     body {
         color: #c5c5c5;
-        background-color: #1a1a1a;
-        font-family: 'Inter', sans-serif;
+        background-color: #282c35;
+        font-family: 'Merriweather', serif;;
         padding-left: 2%;
         padding-right: 2%;
         word-wrap: break-word;
@@ -44,31 +44,44 @@
         text-decoration-color: rgb(100, 100, 100);
     }
     a:hover {
-        background-color: #37373787;
+        text-decoration: none;
     }
 
     /* Code Block Styling */
     pre {
-        display:flex;
-        background-color: #3a3a3a;
-        border-radius: 2vh;
-        padding: 2em;
+        display: flex;
+        background-color: #373738;
+        border-radius: 10px;
+        padding: 1.5em;
         flex-wrap: wrap;
         max-width: 100%;
+        font-size: 16px;
         white-space: pre-wrap;
     }
 
+    blockquote {
+        background: #2c2e35;
+        border-left: 10px solid #ffffff;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+    }
 /* Utility Classes, Font sizing, color */
-    .md { font-size: 1.5em; }
-    .lg { font-size: 2.5em; }
-    .weight-800 { font-weight: 800;}
-    .xm { font-size: 1.8em; }
-    .underline { text-decoration: underline; }
-    .u-gray { color:  #c2c2c2; text-decoration: underline; text-decoration-color: rgb(100, 100, 100); }
-    .u-red { text-decoration-color: red; }
-    .red { color: red; }
-    .blue { color: rgb(90, 113, 187); }
-    .pt-1vh {padding-top: 1vh;}
+        .md { font-size: 1.5em; }
+        .lg { font-size: 2.5em; font-family: 'Inter', sans-serif; }
+        .xm { font-size: 1.8em; }
+        .date { font-size: 18px; }
+        .xs { font-size: 30px; }
+
+        .underline { text-decoration: underline; }
+        .u-gray { color:  #c2c2c2; text-decoration: underline; text-decoration-color: rgb(100, 100, 100); }
+        .u-red { text-decoration-color: red; }
+        .text-none { text-decoration: none;}
+    
+        .red { color: red; }
+        .blue { color: rgb(90, 113, 187); }
+        .neon { color: #94a3fa; }
+    
+        .pt-1vh {padding-top: 1vh;}
 
 /*Element Styling*/
     .margin-main {
@@ -80,7 +93,10 @@
     
     .post-item {
         padding: 20px;
-        margin-bottom: 50px;
+    }
+
+    .title {
+        font-family: 'Inter', sans-serif;
     }
 
     /*OLD Animation

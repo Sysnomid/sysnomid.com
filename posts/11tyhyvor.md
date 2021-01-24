@@ -29,7 +29,7 @@ After that create a post layout ```.njk``` file in your ```_includes``` folder, 
         id: "{{page.url}}"
     };
 </script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script> 
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
 ```
 
 Then in your ```posts``` directory, make a ```posts.json``` file making all the files use the post layout njk file we made earlier,
