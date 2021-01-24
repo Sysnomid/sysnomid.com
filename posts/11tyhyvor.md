@@ -22,14 +22,16 @@ In the project, create a ``` _data ``` folder, and in it a ```site.json``` file 
 
 After that create a post layout ```.njk``` file in your ```_includes``` folder, and in the area you want comments put this 
 ```
+{% raw %}
 <script type="text/javascript">
     var HYVOR_TALK_WEBSITE = 534; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {
         url: "{{data.url}}",
         id: "{{page.url}}"
     };
+{% endraw %}
 </script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script> 
 ```
 
 Then in your ```posts``` directory, make a ```posts.json``` file making all the files use the post layout njk file we made earlier,
