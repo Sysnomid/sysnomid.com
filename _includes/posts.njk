@@ -7,8 +7,8 @@ layout: layout
   <body>
     <div class="margin-main pt-1vh">
         <div class="lg underline u-red">{{ title }}</div>
-        <p class="center date">{{ date | readableDate}}</p>
-      <div class="date content">{{ content | safe}}</div>
+        <p class="center date pb"><strong>{{ date | readableDate}}</strong></p>
+      <div class="date content">{{ content | safe }}</div>
       <div id="hyvor-talk-view"></div>
       <script type="text/javascript">
           var HYVOR_TALK_WEBSITE = 534; // DO NOT CHANGE THIS
