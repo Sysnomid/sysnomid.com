@@ -11,10 +11,12 @@ If you want to have a Nunjucks statement in a Markdown code block, you wrap it i
 ## Example 
 ```
 {% raw %}
+{% raw %}
     {{ page.url }}
+{% raw %}
 {% endraw %}
 ```
 
 This returns the raw contents of the text, and not the parsed Nunjucks. 
 
-If you didn't use the ``` {% raw %} {% raw %} {% endraw %}``` block, ```{% raw %} {{ page.url }} {% endraw %}``` would show up as ```/posts/nunjucksinmd/``` in the code block.
+If you didn't use the ``` {% raw %} {% raw %} {% endraw %}``` block, ```{% raw %} {{ page.url }} {% endraw %}``` by itself would show up as ```/posts/nunjucksinmd/``` in the code block.
