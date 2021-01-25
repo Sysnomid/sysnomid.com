@@ -6,7 +6,7 @@ excerpt: 'Use escaped Nunjucks in a Markdown code block'
 
 Nunjucks is the templating langauge commonly used in the 11ty SSG.
 
-If you want to have a Nunjucks statement in a Markdown code block, you wrap it in a ``` {% raw %} {% raw %} {% endraw %}``` block.
+If you want to have an escaped Nunjucks statement in a Markdown code block, you wrap it in a ``` {% raw %} {% raw %} {% endraw %}``` block.
 
 ## Example 
 ```
