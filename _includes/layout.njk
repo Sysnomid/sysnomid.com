@@ -1,47 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="utf-8">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content={{data.bio}}></meta>
-    <meta name="og:title" content=" {{ page.title }}- {{data.name}}"></meta>
-    <meta property="og:image" content="/assets/favicon.ico" />
-    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-    <meta property="og:url" content={{ page.url }} />
-    <meta property="og:type" content="article" />
-    <link rel="canonical" href={{ data.url }}{{ page.url }}/>
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Inter:wght@{{data.weight}}&display=swap" rel="stylesheet">
-    <title>{{ data.name }}</title>
+    {% include "head.njk" %}
 </head>
 <body>
-<div class="margin-main">
-    <span>
-            <h1>
-            <a href="/">
-                <div class="red title"> {{ data.name }} </div>
-            </a>
-            </h1>
-            <div class="md pb">
-                <a href="/pages/about">About</a>
-                <a href={{data.github}}>Github</a>
-                <a href="https://follow.it/sysnomid?action=followPub">Subscribe</a>
-                <hr />
-            </div>
-        </div>
-    </span>
-</div>
+    {% include "menu.njk" %}
 <div id="content">
 	{{content | safe}}
 </div>
-<hr />
-<div class="margin-main">
-<span>
-    &copy; Sysnomid
-    <br />
-    Blog content under <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a>
-</span>
-</div>
+    {% include "footer.njk" %}
 </body>
 </html>

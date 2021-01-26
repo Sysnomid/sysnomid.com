@@ -15,7 +15,7 @@ permalink: /
 {%- assign posts = collections.posts | reverse -%}
 {% for post in posts %}
 <ul>
-	<li class="post-item margin-main pt-1vh">
+	<li class="post-item margin-main">
     <strong><a class="xm neon title text-none" href="{{post.url}}"><b>{{post.data.title}}</b></a></strong>
     <p>{{post.data.excerpt}}...</p>
     <strong>-</strong> <em class="post-date">{{ post.date | readableDate}}</em>
