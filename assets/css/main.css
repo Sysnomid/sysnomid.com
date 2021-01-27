@@ -88,7 +88,7 @@
         .text-none { text-decoration: none;}
     
         .red { color: red; }
-        .blue { color: rgb(90, 113, 187); }
+        .blue { color: rgb(90, 187, 106); }
         .neon { color: #94a3fa; }
     
         .pt-1vh {padding-top: 1vh;}
@@ -114,26 +114,4 @@
         text-align:center;
         margin-bottom: 50px;
     }
-
-    /*OLD Animation
-    /*.post-item {
-        background-color: #09478262;
-        padding: 20px;
-        margin-bottom: 50px;
-        border-radius: 22px;
-        box-shadow:  
-             -17px -17px 0px #797575;
-        transition: 0.3s;
-    }
-
-    .post-item:hover {
-        transform: translate(0, -10px);
-        background-color: #3d3d3d;
-        padding: 20px;
-        margin-bottom: 50px;
-        border-radius: 22px;
-        background: linear-gradient(145deg, #10101000, #4f4f4f);
-        box-shadow:  17px 17px 0px #da4a4a,
-             -17px -17px 0px #3a4f87;
-    }*/
 
