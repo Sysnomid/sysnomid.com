@@ -8,6 +8,7 @@
         padding-right: 2%;
         word-wrap: break-word;
         overflow-x: hidden;
+        font-display: block;
     }
 
 /*Tag Styling - h1, img, a, etc*/
