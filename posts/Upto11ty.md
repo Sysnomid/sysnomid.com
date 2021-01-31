@@ -6,6 +6,8 @@ date: 2021-01-01
 
 Here is the full setup for my 11ty theme, **UpTo11ty** that powers sysnomid.com
 
+Demo: [https://upto11ty.netlify.app/](https://upto11ty.netlify.app/)
+
 UpTo11ty is a highly configurable, performant, and minimal theme.
 
 ![Lighthouse Score](https://sysnomid.com/assets/img/2021-01-30_19-36.png)
