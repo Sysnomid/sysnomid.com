@@ -1,5 +1,5 @@
 ---
-title: Using Up To 11ty
+title: 'Using Up To 11ty'
 excerpt: 'How to use my new, fast, and minimal 11ty theme'
 date: 2021-01-30
 ---
