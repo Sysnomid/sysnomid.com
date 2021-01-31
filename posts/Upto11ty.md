@@ -44,7 +44,7 @@ To change the title, url, and other data, go to ```_data/site.json``` in the the
     }
     
 
-Now edit all of the JSON fields to your liking.
+Now edit all the JSON fields to your liking.
 
 ### Site Look
 If you want to change the color, fonts, sizings, and styles of the site, edit ``` assets/css/main.css ```
@@ -155,7 +155,7 @@ _includes/posts.njk
 {% endraw %} 
 ```
 
-### 404 Page
+### 404-Page
 404 is handled in ``` 404.html ```. 
 
 If you use ``` eleventy --serve ```, [check out this page on the 11ty docs](https://www.11ty.dev/docs/quicktips/not-found/) to get 404 routing.

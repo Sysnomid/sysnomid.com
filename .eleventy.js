@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addJavaScriptFunction("image", imageShortcode);
     eleventyConfig.addPassthroughCopy('assets')
     eleventyConfig.addPassthroughCopy('img')
+    eleventyConfig.setDynamicPermalinks(false);
     eleventyConfig.addPlugin(pluginRss);
     return {
       passthroughFileCopy: true

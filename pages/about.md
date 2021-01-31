@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-excerpt: 'Hello, I'm Sysnomid. I'm a starting developer, currently learning React and NextJS.'
 ---
 
 Hello, I'm Sysnomid. I'm a starting developer, currently learning React and NextJS. 
