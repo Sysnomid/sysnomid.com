@@ -1,7 +1,7 @@
 ---
 title: Using Up To 11ty
 excerpt: 'How to use my new, fast, and minimal 11ty theme'
-date: 2021-01-01
+date: 2021-01-30
 ---
 
 Here is the full setup for my 11ty theme, **UpTo11ty** that powers sysnomid.com
