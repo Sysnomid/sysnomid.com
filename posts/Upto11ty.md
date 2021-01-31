@@ -45,7 +45,7 @@ To change the title, url, and other data, go to ```_data/site.json``` in the the
 Now edit all of the JSON fields to your liking.
 
 ### Site Look
-    If you want to change the color, fonts, sizings, and styles of the site, edit ``` assets/css/main.css ```
+If you want to change the color, fonts, sizings, and styles of the site, edit ``` assets/css/main.css ```
 
     Theme Global CSS Block:
         ``` /* Global Styling - Theme, Font, Overflow, Padding, Word-Wrap, etc */
