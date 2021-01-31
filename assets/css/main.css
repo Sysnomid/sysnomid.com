@@ -3,7 +3,7 @@
     body {
         color: #c5c5c5;
         background-color: #282c35;
-        font-family: 'Merriweather', serif;;
+        font-family: 'Merriweather';
         padding-left: 2%;
         padding-right: 2%;
         word-wrap: break-word;
@@ -15,7 +15,7 @@
     /* Heading Styling */
     h1,h2,h3 { line-height: 1.2 }
     h2 {
-        font-size: 2em; font-family: 'Inter', sans-serif;
+        font-size: 2em; font-family: 'Inter';
     }
     /* Image Styling */
     img { 
@@ -78,7 +78,7 @@
 
 /* Utility Classes, Font sizing, color */
         .md { font-size: 1.5em; }
-        .lg { font-size: 2.5em; font-family: 'Inter', sans-serif; text-align: center;}
+        .lg { font-size: 2.5em; font-family: 'Inter'; text-align: center;}
         .xm { font-size: 1.8em; }
         .date { font-size: 18px; }
         .xs { font-size: 30px; }
@@ -86,7 +86,7 @@
         .underline { text-decoration: underline; }
         .u-gray { color:  #c2c2c2; text-decoration: underline; text-decoration-color: rgb(100, 100, 100); }
         .u-red { text-decoration-color: red; }
-        .text-none { text-decoration: none;}
+        .text-none { text-decoration: none; }
     
         .red { color: red; }
         .blue { color: rgb(90, 187, 106); }
@@ -108,7 +108,7 @@
     }
 
     .title {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Inter';
     }
 
     .center {
