@@ -217,6 +217,9 @@ Implemented Nunjucks Readable Date Filter, Image Optimization, and assets folder
             }
         }
 
+### robots.txt and sitemap.xml
+robots.txt and sitemap.xml templates located in ``` pages/robots.txt.njk ``` and ``` pages/sitemap.njk ```.
+
 <br />
 
 Now that you are now done setting up, its time to turn your SSG experience **Up to 11ty**.
