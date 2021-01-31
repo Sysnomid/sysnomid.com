@@ -12,7 +12,7 @@ Github: [https://github.com/Sysnomid/UpTo11ty](https://github.com/Sysnomid/UpTo1
 
 **UpTo11ty is a highly configurable, performant, and minimal theme.**
 
-![Lighthouse Score](https://sysnomid.com/assets/img/2021-01-30_19-36.png)
+![Lighthouse Score](/assets/img/2021-01-30_19-36.png)
 
 Let's Get Started!
 
