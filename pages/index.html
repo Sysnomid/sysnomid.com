@@ -1,12 +1,6 @@
 ---
 title: Home
 layout: layout
-tags:
-  - mainCollection
-pagination:
-  data: collections.posts
-  size: 6
-  alias: posts
 permalink: /
 excerpt: 'Home - Sysnomid'
 ---
@@ -23,11 +17,3 @@ excerpt: 'Home - Sysnomid'
 </ul>
 {% endfor %}
 
-
-{% if pagination.href.previous %}
-  <a href="{{pagination.href.previous}}">Previous Page</a>
-{% endif %}
-{% if pagination.href.next %}
-  <a href="{{pagination.href.next}}">Next Page</a>
-{% endif %}
-</div>
