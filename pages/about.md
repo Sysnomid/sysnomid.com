@@ -9,6 +9,8 @@ Hello, I'm Sysnomid. I'm a starting developer, currently learning React and Next
 
 **Email**: [sam [at] sysnomid [dot] com](mailto:sam@sysnomid.com)
 
+**Reddit**: https://www.reddit.com/user/Sysnomid
+
 **Blog RSS**: [https://sysnomid.com/feed.xml](https://sysnomid.com/feed.xml)
 
 **BTC address**: bc1qw9nnvh0wrzmxme86qmhnlad4grnv4sn8y8twyk
