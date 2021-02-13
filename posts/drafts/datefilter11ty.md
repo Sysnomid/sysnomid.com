@@ -2,7 +2,6 @@
 title: 'Date Filter on 11ty'
 date: 2021-01-24
 excerpt: 'Creating a Readable Date filter with 11ty, Nunjucks, and Luxon'
-tags: "drafts"
 ---
 
 ``` npm install luxon ```
