@@ -2,7 +2,6 @@
 title: 'Blogging Systems'
 date: 2021-01-17
 excerpt: What blogging system is the best for you? 
-tags: "drafts"
 ---
 
 I've used a couple blogging systems over my two years owning sysnomid.com. Each has had its own perks and downsides that I'll cover. 
