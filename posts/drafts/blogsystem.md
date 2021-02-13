@@ -4,7 +4,7 @@ date: 2021-01-17
 excerpt: What blogging system is the best for you? 
 ---
 
-I've used a couple blogging systems over my two years owning sysnomid.com. Each has had its own perks and downsides that I'll cover. 
+I've used a couple blogging systems over my two years owning sysnomid.com. Each has had its own perks and downside that I'll cover. 
 
 ## WordPress
 <img src="/img/wordpress_logo.png" height="400" width="400" />
