@@ -8,7 +8,7 @@ excerpt: 'House M.D., one of my favorite shows, has also introduced to some of m
 
 House M.D. is one of my favorite TV shows and such it also has introduced to some of my new favorite music.
 
-The show is focused on Dr. Gregory House, the acerbic Director of Diagnostic Medicine at the fictional Princeton-Plainsboro Teaching Hospital. House leads his team to a diagnosis with his sharp wit and unconventional tactics.
+The show is focused on Dr. Gregory House, played by Hugh Laurie, the acerbic Director of Diagnostic Medicine at the fictional Princeton-Plainsboro Teaching Hospital. House leads his team to a diagnosis with his sharp wit and unconventional tactics.
 
 House M.D, along with its stellar acting, excellent writing, hilarious scenes and emotionally compelling episodes, also has great music. Music helps propel the narrative and gives a closer look into House and the rest of characters in the show. Here is a list of some of my favorite music of the show.
 
@@ -34,46 +34,49 @@ In S3E15 "Half Wit"
 6. **Slippery When Wet - The Commodores**
 In S3E24 "Human Error"
 
-7. **Re: Stacks - Bon Iver**
+7. **There's No F*cking rules - Dude**
+In S4E13 "House's Head"
+
+8. **Re: Stacks - Bon Iver**
 In S4E14 "Wilson's Heart"
 
-8. **Light for the Deadvine - People in Planes**
+9. **Light for the Deadvine - People in Planes**
 In S4E14 "Wilson's Heart"
 
-9. **Passing Afternoon - Iron and Wine**
+10. **Passing Afternoon - Iron and Wine**
 In S4E14 "Wilson's Heart"
 
-10. **You Might Die Trying - Dave Matthews Band**
+11. **You Might Die Trying - Dave Matthews Band**
 In S5E2 "Not Cancer"
 
-11. **Glue of the World - Four Tet**
+12. **Glue of the World - Four Tet**
 In S5E9 "Last Resort"
 
-12. **Cuddy's Serenade - Hugh Laurie**
+13. **Cuddy's Serenade - Hugh Laurie**
 In S5E15 "Unfaithful"
 
-13. **$300 - Soul Coughing**
+14. **$300 - Soul Coughing**
 In S5E16 "The Softer Side"
 
-14. **Lose You - Pete Yorn**
+15. **Lose You - Pete Yorn**
 In S5E20 "Simple Explanation"
 
-15. **As Tears Go By - The Rolling Stones / Vitamin String Quartet**
+16. **As Tears Go By - The Rolling Stones / Vitamin String Quartet**
 In S5E24 "Both Sides Now"
 
-16. **No Suprises - Radiohead**
+17. **No Suprises - Radiohead**
 In S6E1 "Broken"
 
-17. **Shine On - Eric Bibb**
+18. **Shine On - Eric Bibb**
 In S6E13 "5 to 9”
 
-18. **Lochlossa - JJ Grey & Mofro**
+19. **Lochlossa - JJ Grey & Mofro**
 In S6E14 "Private Lives"
 
-19. **My Body is a Cage - Peter Gabriel**
+20. **My Body is a Cage - Peter Gabriel**
 In S7E16 "Out of the Chute"
 
-20. **Keep Me In Your Heart - Warren Zevon**
+21. **Keep Me In Your Heart - Warren Zevon**
 In S8E22 "Everybody Dies"
 
 
