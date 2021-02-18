@@ -1,36 +1,26 @@
 ---json
 {
   "permalink": "feed.xml",
-  "eleventyExcludeFromCollections": true,
-  "metadata": {
-    "title": "Sysnomid",
-    "subtitle": "Tech Blog",
-    "url": "https://sysnomid.com/",
-    "feedUrl": "https://sysnomid.com/feed.xml",
-    "author": {
-      "name": "Sysnomid",
-      "email": "sysnomid@protonmail.com"
-    }
-  }
+  "eleventyExcludeFromCollections": true
 }
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ metadata.title }}</title>
-  <subtitle>{{ metadata.subtitle }}</subtitle>
-  <link href="{{ metadata.feedUrl }}" rel="self"/>
-  <link href="{{ metadata.url }}"/>
+  <title>{{ data.name }}</title>
+  <subtitle>{{ data.bio }}</subtitle>
+  <link href="{{ data.url + data.feed }}" rel="self"/>
+  <link href="{{ data.url }}"/>
   <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
-  <id>{{ metadata.url }}</id>
+  <id>{{ data.url }}</id>
   <author>
-    <name>{{ metadata.author.name }}</name>
-    <email>{{ metadata.author.email }}</email>
+    <name>{{ data.name }}</name>
+    <email>{{ data.email }}</email>
   </author>
   {%- for post in collections.posts %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}"/>
+    <link href="{{ data.url + absolutePostUrl }}"/>
     <updated>{{ post.date | rssDate }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>

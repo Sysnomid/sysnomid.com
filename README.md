@@ -10,4 +10,4 @@ My personal blog, https://sysnomid.com, built with 11ty.
 
 	npm run dev or npm start
 
-Blog content under CC-BY license, https://creativecommons.org/licenses/by/2.0/
+Blog content under CC-BY 2.0 license, https://creativecommons.org/licenses/by/2.0/

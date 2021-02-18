@@ -2,9 +2,10 @@
     "name": "Sysnomid",
     "url": "https://sysnomid.com",
     "bio": "Sysnomid's Personal Blog",
-    "email": "sysnomid@protonmail.com",
+    "email": "sam@sysnomid.com",
     "github": "https://github.com/Sysnomid",
     "sitemap": "/sitemap.xml",
+    "feed": "/feed.xml",
     "weight": 500,
     "robots": "/robots.txt"
 }

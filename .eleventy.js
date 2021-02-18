@@ -22,11 +22,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
   eleventyConfig.addJavaScriptFunction("image", imageShortcode);
-    eleventyConfig.addPassthroughCopy('assets')
-    eleventyConfig.addPassthroughCopy('img')
-    eleventyConfig.setDynamicPermalinks(false);
-    eleventyConfig.addPlugin(pluginRss);
-    return {
-      passthroughFileCopy: true
-    }
+  eleventyConfig.addPassthroughCopy('assets')
+  eleventyConfig.addPassthroughCopy('img')
+  eleventyConfig.setDynamicPermalinks(false);
+  eleventyConfig.addPlugin(pluginRss);
+  
+  return {
+     passthroughFileCopy: true
+  }
 }
