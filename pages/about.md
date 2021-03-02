@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hello, I'm Sysnomid. I'm a starting developer, currently learning React and NextJS. 
+I hate introductions.
 
 **Discord**: Sysnomid#8167
 
@@ -12,6 +12,10 @@ Hello, I'm Sysnomid. I'm a starting developer, currently learning React and Next
 **Reddit**: [https://www.reddit.com/user/Sysnomid](https://www.reddit.com/user/Sysnomid)
 
 **Blog RSS**: [https://sysnomid.com/feed.xml](https://sysnomid.com/feed.xml)
+
+**Element Chat**: @sysnomidtech:matrix.org
+
+**Discord**: Sysnomid#8167
 
 **BTC address**: bc1qw9nnvh0wrzmxme86qmhnlad4grnv4sn8y8twyk
 
