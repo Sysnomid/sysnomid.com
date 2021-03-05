@@ -1,6 +1,6 @@
 ---
 title: 'Date Filter on 11ty'
-date: 2021-01-24
+date: 2021-03-03
 excerpt: 'Creating a Readable Date filter with 11ty, Nunjucks, and Luxon'
 ---
 

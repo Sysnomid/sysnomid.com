@@ -1,6 +1,6 @@
 ---
 title: 'Nunjucks in Markdown Code Blocks'
-date: 2021-03-03
+date: 2021-01-24
 excerpt: 'Use escaped Nunjucks in a Markdown code block'
 ---
 
