@@ -31,6 +31,6 @@ If you want to use this in your templates, do this
 
 ```{% raw %} {{ variable_name | readableDate }} {% endraw %}```
 
-That turns this ``` 2021-03-03 ``` to this ``` 4 March 2020 ```
+That turns this raw date ``` 2021-03-03 ``` to this readable data ``` 4 March 2020 ```
 
 
