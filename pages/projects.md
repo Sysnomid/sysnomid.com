@@ -41,7 +41,7 @@ Github:
 
 **Languages**: Nodejs, Python
 
-**Frameworks**: ExpressJS, Vue, NextJS, React, Flask
+**Frameworks**: ExpressJS, Flask, Vue, NextJS, React, 11ty
 
 **Deployment Tools**: Vercel, Netlify, Nginx, Dokku, Docker, AWS
 
