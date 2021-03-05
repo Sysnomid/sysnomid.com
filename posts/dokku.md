@@ -52,11 +52,13 @@ dokku ssh-keys:add KEY_NAME path/to/id_rsa.pub
     dokku ps:restore app_name
 
 ## Set sensitive files in separate branch
-    git branch dokku-sensitive
+    git branch sensitive-data
 
-    git checkout dokku-sensitive
+    git checkout sensitive-data
 
     git add . && git commit -m "Changing Stuff"
+
+    git push dokku sensitive-data
 
 ## Subdirectory Deploy
     git subtree push --prefix backend dokku branch_name
