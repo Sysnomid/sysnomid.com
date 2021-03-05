@@ -11,17 +11,20 @@ First run:
 
 Then create a lib folder, and in that folder make a ```readableDate.js``` file
 
+<code>
   const { DateTime } = require('luxon');
 
   module.exports = (date) => {
     return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('d LLLL yyyy hh:mm a');
   };
+</code>
 
 After that add this to ```.eleventy.js```
 
-  module.exports = function(eleventyConfig) {
-    eleventyConfig.addFilter('readableDate', require('./lib/filters/readableDate'));
+  <code> module.exports = function(eleventyConfig) {
+    eleventyConfig.addFilter('readableDate', require('./lib/readableDate'));
   }
+  </code>
 
 If you want to use this in your templates, do this
 
