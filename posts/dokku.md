@@ -48,6 +48,11 @@ dokku ssh-keys:add KEY_NAME path/to/id_rsa.pub
 ## Add a domain
     dokku domains:add app_name example.com
 
+## Add an SSL Cert
+    sudo dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git
+
+    dokku letsencrypt app_name
+
 ## Reset an App
     dokku ps:restore app_name
 
