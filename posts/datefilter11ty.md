@@ -25,6 +25,8 @@ After that add this to ```.eleventy.js```
 
 If you want to use this in your templates, do this
 
-  {{ variable_name | readableDate }}
+```{% raw %} {{ variable_name | readableDate }} {% endraw %}```
+
+That turns this ``` 2021-03-03 ``` to this ``` 4 March 2020 ```
 
 
