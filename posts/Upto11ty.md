@@ -6,7 +6,7 @@ date: 2021-01-30
 
 Here is the full setup for my 11ty theme, **UpTo11ty** that powers sysnomid.com
 
-Demo: [https://upto11ty.netlify.app/](https://upto11ty.netlify.app/)
+Demo: [https://upto11ty.vercel.app/](https://upto11ty.vercel.app/)
 
 Github: [https://github.com/Sysnomid/UpTo11ty](https://github.com/Sysnomid/UpTo11ty)
 
