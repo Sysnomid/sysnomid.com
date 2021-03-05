@@ -3,9 +3,6 @@ layout: page
 title: Projects
 ---
 
-### Contact Details: [https://sysnomid.com/about](https://sysnomid.com/pages/about)
-
-
 ## Stuff I've Made
 
 - ### [The Devs' Guild Website](https://thedevsguild.com)
