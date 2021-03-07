@@ -36,10 +36,10 @@ title: Projects
 
 ## Stuff I Use
 
-**Languages**: Nodejs, Python
+**Languages**: Node, Typescript, Python
 
-**Frameworks**: ExpressJS, Flask, Vue, NextJS, React, 11ty
+**Frameworks**: ExpressJS, Vue, NextJS, React, 11ty, Flask
 
-**Deployment Tools**: Vercel, Netlify, Nginx, Dokku, Docker, AWS
+**Deployment Tools**: Vercel, Netlify, Nginx, Dokku, AWS
 
 **Other Tools**: Ubuntu and Debian Linux, Git and Github
