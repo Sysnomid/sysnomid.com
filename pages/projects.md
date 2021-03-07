@@ -5,13 +5,6 @@ title: Projects
 
 ## Stuff I've Made
 
-- ### [The Devs' Guild Website](https://thedevsguild.com)
-
-[Github](https://github.com/Sysnomid/GuildSite)
-
-<br />
-
-
 - ### [6nmd.us - Vue Url Shortener](https://6nmd.us)
 
 [Github](https://github.com/Sysnomid/6nmd-Vue-Urls)
@@ -25,6 +18,17 @@ title: Projects
 
 <br />
 
+- ### [next-ts-tailwind NPM package](https://www.npmjs.com/package/next-ts-tailwind)
+
+[Github](https://github.com/Sysnomid/next-ts-tailwind)
+
+<br />
+
+- ### [The Devs' Guild Website](https://thedevsguild.com)
+
+[Github](https://github.com/Sysnomid/GuildSite)
+
+<br />
 
 - ### [Up to 11ty Theme](https://upto11ty.vercel.app/)
 
